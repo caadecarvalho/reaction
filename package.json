@@ -35,6 +35,7 @@
     "authorize-net": "^1.1.1",
     "autoprefixer": "^7.2.5",
     "autosize": "^4.0.0",
+    "bcrypt": "^3.0.0",
     "body-parser": "^1.18.2",
     "bootstrap": "^3.3.7",
     "braintree": "^2.7.0",
