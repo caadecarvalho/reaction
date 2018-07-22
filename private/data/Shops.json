@@ -115,7 +115,7 @@
       "symbol": "$b"
     },
     "BRL": {
-      "enabled": false,
+      "enabled": true,
       "format": "%s%v",
       "symbol": "R$",
       "decimal": ",",
@@ -173,7 +173,7 @@
       "scale": 0
     },
     "CNY": {
-      "enabled": true,
+      "enabled": false,
       "format": "%s%v",
       "symbol": "¥"
     },
@@ -236,12 +236,12 @@
       "thousand": "."
     },
     "DZD": {
-      "enabled": true,
+      "enabled": false,
       "format": "%v %s",
       "symbol": "دج"
     },
     "EGP": {
-      "enabled": true,
+      "enabled": false,
       "format": "%s%v",
       "symbol": "£",
       "decimal": ",",
@@ -258,12 +258,12 @@
       "symbol": "kr"
     },
     "USD": {
-      "enabled": true,
+      "enabled": false,
       "format": "%s%v",
       "symbol": "$"
     },
     "EUR": {
-      "enabled": true,
+      "enabled": false,
       "format": "%v %s",
       "symbol": "€",
       "decimal": ",",
@@ -292,7 +292,7 @@
       "symbol": "£"
     },
     "GBP": {
-      "enabled": true,
+      "enabled": false,
       "format": "%s%v",
       "symbol": "£"
     },
@@ -351,7 +351,7 @@
       "thousand": "."
     },
     "ILS": {
-      "enabled": true,
+      "enabled": false,
       "format": "%s%v",
       "symbol": "₪"
     },
@@ -416,7 +416,7 @@
       "symbol": "$"
     },
     "NGN": {
-      "enabled": true,
+      "enabled": false,
       "format": "%s%v",
       "symbol": "₦"
     },
@@ -438,7 +438,7 @@
       "symbol": "﷼"
     },
     "RUB": {
-      "enabled": true,
+      "enabled": false,
       "format": "%v %s",
       "symbol": "руб.",
       "decimal": ",",
@@ -510,12 +510,12 @@
       "scale": 0
     }
   },
-  "currency": "USD",
+  "currency": "BRL",
   "languages": [
     {
       "label": "العربية",
       "i18n": "ar",
-      "enabled": true
+      "enabled": false
     }, {
       "label": "Български",
       "i18n": "bg",
@@ -523,7 +523,7 @@
     }, {
       "label": "中文(简体)",
       "i18n": "zh",
-      "enabled": true
+      "enabled": false
     }, {
       "label": "České",
       "i18n": "cs",
@@ -531,27 +531,27 @@
     }, {
       "label": "Deutsch",
       "i18n": "de",
-      "enabled": true
+      "enabled": false
     }, {
       "label": "English",
       "i18n": "en",
-      "enabled": true
+      "enabled": false
     }, {
       "label": "Ελληνικά",
       "i18n": "el",
-      "enabled": true
+      "enabled": false
     }, {
       "label": "Español",
       "i18n": "es",
-      "enabled": true
+      "enabled": false
     }, {
       "label": "Français",
       "i18n": "fr",
-      "enabled": true
+      "enabled": false
     }, {
       "label": "עברית",
       "i18n": "he",
-      "enabled": true
+      "enabled": false
     }, {
       "label": "Hrvatski",
       "i18n": "hr",
@@ -583,11 +583,11 @@
     }, {
       "label": "Русский",
       "i18n": "ru",
-      "enabled": true
+      "enabled": false
     }, {
       "label": "Română",
       "i18n": "ro",
-      "enabled": true
+      "enabled": false
     }, {
       "label": "Slovenščina",
       "i18n": "sl",
@@ -3165,30 +3165,29 @@
       }
     }
   },
-  "name": "Reaction",
+  "name": "CervaStore",
   "taxes": [{
     "taxesIncluded": null,
     "taxShipping": null,
     "countyTaxes": true
   }],
-  "timezone": "US/Pacific",
-  "baseUOL": "in",
+  "timezone": "America/Sao_Paulo",
+  "baseUOL": "cm",
   "unitsOfLength": [{
     "uol": "in",
-    "label": "Inches",
-    "default": true
+    "label": "Inches"
   }, {
     "uol": "cm",
-    "label": "Centimeters"
+    "label": "Centimeters",
+    "default": true
   }, {
     "uol": "ft",
     "label": "Feet"
   }],
-  "baseUOM": "oz",
+  "baseUOM": "kg",
   "unitsOfMeasure": [{
     "uom": "oz",
-    "label": "Ounces",
-    "default": true
+    "label": "Ounces"
   }, {
     "uom": "lb",
     "label": "Pounds"
@@ -3197,18 +3196,19 @@
     "label": "Grams"
   }, {
     "uom": "kg",
-    "label": "Kilograms"
+    "label": "Kilograms",
+    "default": true
   }],
   "addressBook": [{
-    "company": "Reaction Commerce",
-    "fullName": "Ongo Works",
-    "address1": "2110 Main Street",
-    "address2": "Suite 207",
-    "city": "Santa Monica",
-    "region": "CA",
-    "postal": "90405",
-    "country": "US",
-    "phone": "8885551212",
+    "company": "CervaStore",
+    "fullName": "Cervejaria Quatro Imp Exp Com Ltda",
+    "address1": "Av. Paulista, 171",
+    "address2": "4 andar",
+    "city": "Sao Paulo",
+    "region": "Sao Paulo",
+    "postal": "01310-000",
+    "country": "BR",
+    "phone": "11952031505",
     "isCommercial": true,
     "isShippingDefault": true,
     "isBillingDefault": true
